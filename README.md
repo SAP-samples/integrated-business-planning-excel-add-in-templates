@@ -32,4 +32,4 @@ The best practices templates are provided "as-is" and support may be extended as
 
 # License
 Copyright (c) 2018 SAP SE or an SAP affiliate company. All rights reserved.
-This file is licensed under the SAP SAMPLE CODE LICENSE AGREEMENT
+This file is licensed under the [SAP SAMPLE CODE LICENSE AGREEMENT](https://github.com/SAP/integrated-business-planning-excel-add-in-templates/blob/master/LICENSE)
