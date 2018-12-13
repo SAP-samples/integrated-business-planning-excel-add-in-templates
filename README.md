@@ -1,6 +1,8 @@
 # integrated-business-planning-excel-add-in-templates
 Collection of best practices planning view templates for the SAP Integrated Business Planning (IBP) Excel Add-In.
 
+![screenshot of VBA Template](https://github.com/SAP/integrated-business-planning-excel-add-in-templates/blob/master/media/screenshot.png "screenshot of VBA Template")
+
 # Overview
 Template development is an important task during an S&OP / IBP implementation. Useful, easy-to use, and beautiful templates will contribute significantly to end user adoption and implementation project success. This repository contains a collection of best practices planning view templates for the SAP IBP Excel Add-In.
 For more general information have a look at [SAP note 1790530](https://launchpad.support.sap.com/#/notes/1790530)
