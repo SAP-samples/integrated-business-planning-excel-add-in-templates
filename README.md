@@ -8,7 +8,7 @@ For more general information have a look at [SAP note 1790530](https://launchpad
 ![screenshot of VBA Template](https://github.com/SAP/integrated-business-planning-excel-add-in-templates/blob/master/media/screenshot.png "screenshot of a VBA Template")
 
 ## Download and Installation
-* Download best practice planning view template that fits your need [here](https://github.com/SAP/integrated-business-planning-excel-add-in-templates/archive/master.zip)
+Download best practice planning view template that fits your need [here](https://github.com/SAP/integrated-business-planning-excel-add-in-templates/archive/master.zip)
 
 For more information have a look at [SAP note 1790530](https://launchpad.support.sap.com/#/notes/1790530)
 
