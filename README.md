@@ -12,7 +12,7 @@ Download best practice planning view templates that fits your need [here](https:
 
 For more information have a look at [SAP note 1790530](https://launchpad.support.sap.com/#/notes/1790530)
 
-Prerequisites for the planning view templates is the IBP Add-In for Microsoft Excel. 
+A prerequisite for the planning view templates is the IBP Add-In for Microsoft Excel. 
 
 For more information about installing the IBP Add-In for Microsoft Excel have a look at [SAP note 2135948](https://launchpad.support.sap.com/#/notes/2135948)
 
