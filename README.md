@@ -1,20 +1,14 @@
-# integrated-business-planning-excel-add-in-templates
+# Planning View Templates for the IBP Add-In for Microsoft Excel
 Collection of best practices planning view templates for the SAP Integrated Business Planning (IBP) Add-In for Microsoft Excel.
-
-![screenshot of VBA Template](https://github.com/SAP/integrated-business-planning-excel-add-in-templates/blob/master/media/screenshot.png "screenshot of a VBA Template")
 
 ## Overview
 Template development is an important task during an S&OP / IBP implementation. Useful and easy-to use templates will contribute significantly to end user adoption and implementation project success. This repository contains a collection of best practices planning view templates for the SAP IBP Add-In for Microsoft Excel.
 For more general information have a look at [SAP note 1790530](https://launchpad.support.sap.com/#/notes/1790530)
 
+![screenshot of VBA Template](https://github.com/SAP/integrated-business-planning-excel-add-in-templates/blob/master/media/screenshot.png "screenshot of a VBA Template")
+
 ## Download and Installation
-
-### Pre-requisite:
-* You will need access to an SAP IBP System
-* You need to install the IBP Add-In for Microsoft Excel
-
-### Download and Installation:
-* Download best practice planning view template from this repository that fits your need
+* Download best practice planning view template that fits your need [here](https://github.com/SAP/integrated-business-planning-excel-add-in-templates/archive/master.zip)
 
 For more information have a look at [SAP note 1790530](https://launchpad.support.sap.com/#/notes/1790530)
 
@@ -29,8 +23,8 @@ Users might want to copy sheets containing planning views using the native Excel
 For more restrictions or known issues have a look at [SAP note 1790530](https://launchpad.support.sap.com/#/notes/1790530).
 
 ## How to obtain support
-Do not rely too heavily on the best practices templates. They are meant as an inspiration and as a stepping stone to get you started.
 The best practices planning view templates are provided "as-is", no support is provided.
+Do not rely too heavily on the best practices templates. They are meant as an inspiration and as a stepping stone to get you started.
 
 ## License
 Copyright (c) 2018 SAP SE or an SAP affiliate company. All rights reserved.
