@@ -22,7 +22,7 @@ For more information have a look at [SAP note 1790530](https://launchpad.support
 * The best practices templates are designed just for the SAP IBP Add-In for Microsoft Excel
 
 # Known Issues
-copy/move sheet
+**copy/move sheet:**
 Users might want to copy sheets containing planning views using the native Excel copy/move function. For planning view sheets the native Excel copy/move is not supported: The IBP Add-In for Microsoft Excel will not recognize the sheet and omit it in the Edit View dialog. However, the template admin can copy the empty template sheets from the empty templates attached here - before they are filled with a planning view - and then proceed as with the first sheet with New View > Without Template on Current Sheet.
 
 For more restrictions or known issues have a look at [SAP note 1790530](https://launchpad.support.sap.com/#/notes/1790530).
