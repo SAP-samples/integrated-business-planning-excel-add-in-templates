@@ -11,6 +11,7 @@ For more general information have a look at [SAP note 1790530](https://launchpad
 Download best practice planning view template that fits your need [here](https://github.com/SAP/integrated-business-planning-excel-add-in-templates/archive/master.zip)
 
 For more information have a look at [SAP note 1790530](https://launchpad.support.sap.com/#/notes/1790530)
+For more information about installing the IBP Add-In for Microsoft Excel have a look at [SAP note 2135948](https://launchpad.support.sap.com/#/notes/2135948)
 
 ## Limitations
 * Chart in the formula based template only looks at 300 rows and they only work in English.
