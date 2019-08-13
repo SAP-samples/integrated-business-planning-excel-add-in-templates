@@ -3,22 +3,24 @@ Collection of best practices planning view templates for the SAP Integrated Busi
 
 ## Overview
 Template development is an important task during an S&OP / IBP implementation. Useful and easy-to use templates will contribute significantly to end user adoption and implementation project success. This repository contains a collection of best practices planning view templates for the SAP IBP Add-In for Microsoft Excel.
-For more general information have a look at [SAP note 1790530](https://launchpad.support.sap.com/#/notes/1790530)
+For more general information have a look at [SAP note 1790530](https://launchpad.support.sap.com/#/notes/1790530).
 
 ![screenshot of VBA Template](https://github.com/SAP/integrated-business-planning-excel-add-in-templates/blob/master/media/screenshot.png "screenshot of a VBA Template")
 
 ## Download and Installation
-Download best practice planning view templates that fits your need [here](https://github.com/SAP/integrated-business-planning-excel-add-in-templates/archive/master.zip)
+Download best practice planning view templates that fits your need [here](https://github.com/SAP/integrated-business-planning-excel-add-in-templates/archive/master.zip).
 
-For more information have a look at [SAP note 1790530](https://launchpad.support.sap.com/#/notes/1790530)
+For more information have a look at [SAP note 1790530](https://launchpad.support.sap.com/#/notes/1790530).
 
 A prerequisite for the planning view templates is the IBP Add-In for Microsoft Excel. 
 
-For more information about installing the IBP Add-In for Microsoft Excel have a look at [SAP note 2135948](https://launchpad.support.sap.com/#/notes/2135948)
+For more information about installing the IBP Add-In for Microsoft Excel have a look at [SAP note 2135948](https://launchpad.support.sap.com/#/notes/2135948).
+
+After downloading the sample files, the Excel templates may not load properly, if their location isn’t set to be part of the Trusted Locations. You can add a Trusted Location in Excel by going to File > Options > Trust Center > Trust Center Settings … Trusted Locations > Add new location… > Browse.
 
 ## Limitations
 * Chart in the formula based template only looks at 300 rows and they only work in English.
-* The best practices templates are designed just for the SAP IBP Add-In for Microsoft Excel
+* The best practices templates are designed just for the SAP IBP Add-In for Microsoft Excel.
 
 ## Known Issues
 
