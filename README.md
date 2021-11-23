@@ -1,33 +1,33 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/integrated-business-planning-excel-add-in-templates)](https://api.reuse.software/info/github.com/SAP-samples/integrated-business-planning-excel-add-in-templates)
 
-# Planning View Templates for the IBP Add-In for Microsoft Excel
-Collection of best practices planning view templates for the SAP Integrated Business Planning (IBP) Add-In for Microsoft Excel.
+# Planning View Templates for the SAP IBP, Add-In for Microsoft Excel
+Collection of best practices planning view templates for the SAP Integrated Business Planning (IBP), add-in for Microsoft Excel (Excel add-in).
 
 ## Overview
-Template development is an important task during an S&OP / IBP implementation. Useful and easy-to use templates will contribute significantly to end user adoption and implementation project success. This repository contains a collection of best practices planning view templates for the SAP IBP Add-In for Microsoft Excel.
+Template development is an important task during an IBP implementation. Useful and easy-to use templates will contribute significantly to end user adoption and implementation project success. This repository contains a collection of best practices planning view templates for the Excel add-in.
 For more general information have a look at [SAP note 1790530](https://launchpad.support.sap.com/#/notes/1790530).
 
 ![screenshot of VBA Template](https://github.com/SAP-samples/integrated-business-planning-excel-add-in-templates/blob/main/media/screenshot.png "screenshot of a VBA Template")
 
 ## Download and Installation
-Download best practice planning view templates that fits your need [here](https://github.com/SAP-samples/integrated-business-planning-excel-add-in-templates/archive/refs/heads/main.zip).
+Download the best practice planning view template that fits to your need [here](https://github.com/SAP-samples/integrated-business-planning-excel-add-in-templates/archive/refs/heads/main.zip).
 
 For more information have a look at [SAP note 1790530](https://launchpad.support.sap.com/#/notes/1790530).
 
-A prerequisite for the planning view templates is the IBP Add-In for Microsoft Excel. 
+A prerequisite to use the planning view templates is the installation of the Excel add-in and the access to an IBP system.
 
-For more information about installing the IBP Add-In for Microsoft Excel have a look at [SAP note 2135948](https://launchpad.support.sap.com/#/notes/2135948).
+For more information about installing the Excel add-in have a look at [SAP note 2135948](https://launchpad.support.sap.com/#/notes/2135948).
 
 After downloading the sample files, the Excel templates may not load properly, if their location isn’t set to be part of the Trusted Locations. You can add a Trusted Location in Excel by going to File > Options > Trust Center > Trust Center Settings … Trusted Locations > Add new location… > Browse.
 
 ## Limitations
 * Chart in the formula based template only looks at 300 rows and they only work in English.
-* The best practices templates are designed just for the SAP IBP Add-In for Microsoft Excel.
+* The best practices templates are designed just for the SAP IBP, add-in for Microsoft Excel.
 
 ## Known Issues
 
 - **copy/move sheet:**
-    Users might want to copy sheets containing planning views using the native Excel copy/move function. For planning view sheets the native Excel copy/move is not supported: The IBP Add-In for Microsoft Excel will not recognize the sheet and omit it in the Edit View dialog. However, the template admin can copy the empty template sheets from the empty templates attached here - before they are filled with a planning view - and then proceed as with the first sheet with New View > Without Template on Current Sheet.
+    Users might want to copy sheets containing planning views using the native Excel copy/move function. For planning view sheets the native Excel copy/move is not supported: The Excel add-in will not recognize the sheet and omit it in the Edit View dialog. However, the template admin can copy the empty template sheets from the empty templates attached here - before they are filled with a planning view - and then proceed as with the first sheet with New View > Without Template on Current Sheet.
 
 For more restrictions or known issues have a look at [SAP note 1790530](https://launchpad.support.sap.com/#/notes/1790530).
 
