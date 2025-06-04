@@ -1,42 +1,5 @@
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/integrated-business-planning-excel-add-in-templates)](https://api.reuse.software/info/github.com/SAP-samples/integrated-business-planning-excel-add-in-templates)
-
-# Planning View Templates for the SAP IBP, Add-In for Microsoft Excel
-Collection of best practices planning view templates for the SAP Integrated Business Planning (IBP), add-in for Microsoft Excel (Excel add-in).
-
-## Overview
-Template development is an important task during an IBP implementation. Useful and easy-to use templates will contribute significantly to end user adoption and implementation project success. This repository contains a collection of best practices planning view templates for the Excel add-in.
-For more general information have a look at [SAP note 1790530](https://launchpad.support.sap.com/#/notes/1790530).
-
-![screenshot of VBA Template](https://github.com/SAP-samples/integrated-business-planning-excel-add-in-templates/blob/main/media/screenshot.png "screenshot of a VBA Template")
-
-## Download and Installation
-Download the best practice planning view template that fits to your need [here](https://github.com/SAP-samples/integrated-business-planning-excel-add-in-templates/archive/refs/heads/main.zip).
-
-For more information have a look at [SAP note 1790530](https://launchpad.support.sap.com/#/notes/1790530).
-
-A prerequisite to use the planning view templates is the installation of the Excel add-in and the access to an IBP system.
-
-For more information about installing the Excel add-in have a look at [SAP note 2135948](https://launchpad.support.sap.com/#/notes/2135948).
-
-After downloading the sample files, the Excel templates may not load properly, if their location isn’t set to be part of the Trusted Locations. You can add a Trusted Location in Excel by going to File > Options > Trust Center > Trust Center Settings … Trusted Locations > Add new location… > Browse.
-
-## Limitations
-* Chart in the formula based template only looks at 300 rows and they only work in English.
-* The best practices templates are designed just for the SAP IBP, add-in for Microsoft Excel.
-
-## Known Issues
-
-- **copy/move sheet:**
-    Users might want to copy sheets containing planning views using the native Excel copy/move function. For planning view sheets the native Excel copy/move is not supported: The Excel add-in will not recognize the sheet and omit it in the Edit View dialog. However, the template admin can copy the empty template sheets from the empty templates attached here - before they are filled with a planning view - and then proceed as with the first sheet with New View > Without Template on Current Sheet.
-
-For more restrictions or known issues have a look at [SAP note 1790530](https://launchpad.support.sap.com/#/notes/1790530).
-
-## How to obtain support
-The best practices planning view templates are provided "as-is", no support is provided.
-
-The best practices templates are not meant for production use. They are meant as an inspiration and as a stepping stone to get you started.
-
-For additional support, [ask a question in SAP Community](https://answers.sap.com/questions/ask.html).
-
-## License
-Copyright (c) 2018 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
+Our sample VBA planning view templates contain ActiveX controls. This means that any VBA chart in templates and favorites created based on our sample VBA planning view templates can only be used if ActiveX controls are enabled. 
+Microsoft announced that in Microsoft 365 and Office 2024, the settings for ActiveX controls have changed to be disabled by default. For more information, see the [Microsoft support pages](https://support.microsoft.com/en-us/office/activex-controls-are-disabled-by-default-in-microsoft-365-and-office-2024-9cae60f8-478c-42c6-978c-eca072525d64) and 
+[SAP IBP What's New 2505: Changed Microsoft Setting for ActiveX Controls.](https://help.sap.com/docs/SAP_INTEGRATED_BUSINESS_PLANNING/1a872737ea3647d28f59b3dc2e204292/bf25bef4aac1496eb56a8f28fa4c8715.html?parentHref=/whats-new/de1a677ad82f4858b4a3174545fc3068?locale=en-US&parentName=What%27s%20New%20Viewer%20-%20SAP%20Integrated%20Business%20Planning%20(SAP%20IBP)%202505&locale=en-US)
+We are removing the VBA-based sample planning view templates containing ActiveX controls, as we do not recommend using them any longer. We plan to provide new VBA-based sample planning view templates including charts that are not using ActiveX controls.
+In the meantime, we are recommending to use the TemplateWithoutVBA.xlsx which does not include any chart or wait until we are providing the adjusted version.”
