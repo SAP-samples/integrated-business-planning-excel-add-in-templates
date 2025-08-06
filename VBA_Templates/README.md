@@ -1,0 +1,10 @@
+ChartVBA_Embedded_FormControls.xlsm is the new sample VBA planning view template which uses Form controls instead of ActiveX controls.
+The buttons, checkboxes and list boxes that are used to control the VBA chart have been exchanged by Form controls. This is why they look a bit different, but the way how they are working hasn’t been changed.
+In previous versions of the sample VBA planning view templates the buttons, checkboxes and list boxes were ActiveX controls. Microsoft announced that in Microsoft 365 and Office 2024, the settings for ActiveX controls have changed to be disabled by default and recommends to disable ActiveX controls unless necessary, see the Microsoft support pages. Therefore, we have removed the previous versions of the sample VBA templates and exchanged them by the new one.
+When creating new planning view templates, we recommend using this version or the one without VBA (TemplateWithoutVBA.xlsx).
+However, all available versions of the SAP IBP, add-in for Microsoft Excel are using ActiveX controls in the background. Therefore, ActiveX controls must be activated when working with any planning views in the Excel add-in, independent whether they have been created based on the old or the new template, see What's new in SAP IBP 2508: Changed Microsoft Setting for ActiveX Controls.
+We are planning to release a new version of the Excel add-in that does no longer require ActiveX controls to be activated with SAP IBP 2511.
+To be able to deactivate ActiveX controls for your end users, you’ll need to wait for the new version of the Excel add-in to be released and need to newly create your templates with the new sample template (in case you have used a former version of the sample template before).
+We know that newly creating your templates requires effort and the right knowledge, therefore we plan to provide additional help in this regard in a later release.
+Further guidance will follow with the SAP IBP 2511 release.
+As of now no ChartVBA_AddIn.xlsm version exists which uses Form controls instead of ActiveX controls. We plan provide this soon.
