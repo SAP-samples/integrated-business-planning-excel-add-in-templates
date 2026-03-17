@@ -1,3 +1,6 @@
+The templates included in "Compatible_With_2511_Or_Newer" should only be used, if all users have version 2511.2.0 or newer installed. If some of your users are still working with older versions of the Excel add-in we recommend using the templates in "Compatible_With_Any_Version".
+In these templates still ActiveX controls are included in the SAP IBP Formatting Sheet, which makes them compatible with older versions. When using 2511.2.0 or newer those ActiveX controls are no longer in use.
+
 ChartVBA_Embedded_FormControls.xlsm” and “ChartVBA_AddIn_FormControls.xlsm” are the new sample VBA planning view templates that use Form controls instead of ActiveX controls. The buttons, checkboxes, and list boxes that are used to control the VBA chart have been replaced by Form controls. As a consequence, they look slightly different, but they function the same way.
 To be able to use the “ChartVBA_AddIn_FormControls.xlsm” sample template you need to download the new “SAP_IBP_Chart.xlam” file and place it in folder %appdata%\Microsoft\AddIns.
 The new “SAP_IBP_Chart.xlam” file works with former versions of the sample template and the new one.

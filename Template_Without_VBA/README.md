@@ -1,0 +1,2 @@
+The templates included in "Compatible_With_2511_Or_Newer" should only be used, if all users have version 2511.2.0 or newer installed. If some of your users are still working with older versions of the Excel add-in we recommend using the templates in "Compatible_With_Any_Version".
+In these templates still ActiveX controls are included in the SAP IBP Formatting Sheet, which makes them compatible with older versions. When using 2511.2.0 or newer those ActiveX controls are no longer in use.
